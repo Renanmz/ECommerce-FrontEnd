@@ -15,8 +15,8 @@ body {
 
 .search-container {
     display: flex;
-    gap: 10px; /* Espaço entre o input e o select */
-    margin-bottom: 20px; /* Para dar espaçamento entre os elementos */
+    gap: 10px; 
+    margin-bottom: 20px; 
 }
 
 .searchbox {
