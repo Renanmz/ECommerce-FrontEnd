@@ -11,6 +11,8 @@ function loadPhotos() {
         photos.forEach(p => i += 1)
         footerspan.innerHTML = "Quantidade de fotos : " + i;
     }
-    http.open('GET', 'http://localhost:8080/produto');
+    var order = document.getElementById("Order").value;
+    var httplong = 'http://localhost:8080/produto?order=' + order;
+    http.open('GET', httplong);
     http.send();
 }

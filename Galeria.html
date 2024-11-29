@@ -7,8 +7,13 @@
 </head>
 
 <body onload="loadPhotos()">
-    <div>
-        <input type="search" class='searchbox'>       
+    <div class="search-container">
+        <input type="search" class='searchbox'>     
+        <select id="Order" oninput="loadPhotos()">
+            <option value="nome">A a Z</option>
+            <option value="preco">Maior Preço</option>
+            <option value="preco&direction=desc">Menor Preço</option>
+        </select>
     </div>
     <div class="Fotos">
         <div id="FotosLista">          

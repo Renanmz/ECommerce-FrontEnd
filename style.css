@@ -1,10 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -15,22 +13,31 @@ body {
     padding: 20px;
 }
 
+.search-container {
+    display: flex;
+    gap: 10px; /* Espaço entre o input e o select */
+    margin-bottom: 20px; /* Para dar espaçamento entre os elementos */
+}
 
 .searchbox {
     width: 100%;
     max-width: 400px;
     padding: 10px;
-    margin-bottom: 20px;
     border: 1px solid #969696;
     border-radius: 4px;
 }
 
+#Order {
+    padding: 10px;
+    border: 1px solid #969696;
+    border-radius: 4px;
+    font-size: 14px;
+}
 
 .Fotos {
     width: 100%;
     max-width: 1200px;
 }
-
 
 #FotosLista {
     display: flex;
@@ -38,7 +45,6 @@ body {
     gap: 16px; 
     justify-content: center; 
 }
-
 
 .foto {
     width: 200px; 
@@ -49,15 +55,11 @@ body {
     padding: 8px;
 }
 
-
 .foto img {
     width: 100%;
     height: auto;
     border-radius: 4px;
 }
-
-
-
 
 footer {
     width: 100%;
