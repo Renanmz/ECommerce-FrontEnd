@@ -8,7 +8,8 @@
 
 <body onload="loadPhotos()">
     <div class="search-container">
-        <input type="search" class='searchbox'>     
+        <input type="search" id="Search">  
+        <button id="BotaoSearch" onclick="loadPhotos()">Search</button>   
         <select id="Order" oninput="loadPhotos()">
             <option value="nome">A a Z</option>
             <option value="preco">Maior Preço</option>

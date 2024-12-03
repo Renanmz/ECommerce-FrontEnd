@@ -23,13 +23,19 @@ body {
     width: 100%;
     max-width: 400px;
     padding: 10px;
-    border: 1px solid #969696;
+    border: 1px solid #000000;
     border-radius: 4px;
 }
 
 #Order {
     padding: 10px;
-    border: 1px solid #969696;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 14px;
+}
+#BotaoSearch {
+    padding: 5px;
+    border: 1px solid #000000;
     border-radius: 4px;
     font-size: 14px;
 }
